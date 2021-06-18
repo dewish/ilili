@@ -1,0 +1,26 @@
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; //1rem = 10px/16px = 62.5%
+}
+
+body {
+  background-color: rgb(221, 221, 221);
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  max-width: 192rem;
+  padding: 5rem;
+  height: max-content;
+  margin: auto;
+  flex-direction: column;
+}
